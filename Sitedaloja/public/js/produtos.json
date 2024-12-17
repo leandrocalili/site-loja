@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Camisa Básica",
+    "price": "R$ 49,90",
+    "image": "https://i.pinimg.com/736x/14/b8/c2/14b8c21b2f67e0255a3c865f2c95b230.jpg",
+    "details": [
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200"
+    ],
+    "description": "Camisa de algodão confortável para o dia a dia.",
+    "sizes": ["P", "M", "G", "GG"]
+  },
+
+  {
+    "name": "Calça Jeans",
+    "price": "R$ 119,90",
+    "image": "https://i.pinimg.com/736x/f5/23/b9/f523b9629f72af386acc59b0bc50c5b5.jpg",
+    "details": [
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200"
+    ],
+    "description": "Calça jeans clássica, ideal para diversas ocasiões.",
+    "sizes": ["36", "38", "40", "42"]
+  },
+
+  {
+    "name": "Camisas de time",
+    "price": "R$ 119,90",
+    "image": "https://i.pinimg.com/736x/83/e2/6f/83e26f6b28d61f5a3209b197902afaf3.jpg",
+    "details": [
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",
+      "https://i.pinimg.com/736x/e3/09/6e/e3096e27c62dce0b4e68e310a15b0d86.jpg",
+      "https://via.placeholder.com/200"
+    ],
+    "description": "Camisas de time para voce torcedor apaixonado",
+    "sizes": ["P", "M", "G", "GG"]
+  }
+]
