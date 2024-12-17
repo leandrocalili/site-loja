@@ -3,6 +3,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
+  background-image: url('https://i.pinimg.com/originals/5f/6b/52/5f6b526b27d06d1d87eec48d7b4c774b.jpg'); /* Substitua pelo link da sua imagem */
+  background-size: cover; /* Ajusta para cobrir a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Mantém o fundo fixo ao rolar */
 }
 
 header {
@@ -10,6 +15,15 @@ header {
   color: white;
   text-align: center;
   padding: 1em 0;
+  position: relative; /* Para permitir o posicionamento absoluto da logo */
+}
+
+.logo {
+  max-width: 100px; /* Largura máxima da logo */
+  height: auto; /* Altura automática para manter a proporção */
+  position: absolute; /* Permite posicionar a logo */
+  top: 10px; /* Distância do topo */
+  left: 10px; /* Distância da esquerda */
 }
 
 main {
@@ -92,6 +106,15 @@ button:hover {
 .modal-content h2 {
   margin: 0 0 10px;
 }
+
+/* Ajustes adicionais para a imagem de fundo */
+@media (max-width: 60px)
+ {
+  body {
+    background-size: contain; /* Ajusta a imagem para caber em telas menores */
+  }
+}
+
 
 .details-images img {
   max-width: 100px;

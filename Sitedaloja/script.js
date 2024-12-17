@@ -6,7 +6,11 @@ const items = [
     image: "https://i.pinimg.com/736x/14/b8/c2/14b8c21b2f67e0255a3c865f2c95b230.jpg", 
     details: [
       "https://via.placeholder.com/200", "https://via.placeholder.com/200", 
-      "https://via.placeholder.com/200", "https://via.placeholder.com/200"
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",  "https://via.placeholder.com/200",
     ],
     
     description: "Camisa de algodão confortável para o dia a dia.",
@@ -32,7 +36,21 @@ const items = [
     image: "https://i.pinimg.com/736x/83/e2/6f/83e26f6b28d61f5a3209b197902afaf3.jpg", 
     details: [
       "https://via.placeholder.com/200", "https://via.placeholder.com/200",
-      "https://via.placeholder.com/200", "https://via.placeholder.com/200"
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",  "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",  "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200",  "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://via.placeholder.com/200", "https://via.placeholder.com/200",
+      "https://i.pinimg.com/736x/e3/09/6e/e3096e27c62dce0b4e68e310a15b0d86.jpg", "https://via.placeholder.com/200",
+      
     ],
     description: "Camisas de time para voce torcedor apaixonado",
     sizes: ["P", "M", "G", "GG"]
@@ -91,4 +109,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderGallery(items);
+// Adiciona uma imagem de fundo ao body usando JavaScript
+document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/e0/81/6a/e0816ab72c8d7413714d8b83315af83a.jpg')"; // Substitua pelo link desejado
+document.body.style.backgroundSize = "cover"; // Ajusta a imagem para cobrir toda a tela
+document.body.style.backgroundPosition = "center 200px"; // Centraliza a imagem
+document.body.style.backgroundRepeat = "no-repeat"; // Evita repetição
+
+
 });
