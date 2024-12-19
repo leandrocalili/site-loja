@@ -21,6 +21,16 @@ header {
   border-radius: 50%;
 }
 
+.test {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  width: 100px;
+  height: auto;
+}
+
+
 main {
   padding: 20px;
 }
