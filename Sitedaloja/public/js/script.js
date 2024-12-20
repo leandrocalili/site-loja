@@ -135,10 +135,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderGallery(items);
-  // Adiciona uma imagem de fundo ao body usando JavaScript
-  document.body.style.backgroundImage =
-    "url('https://i.pinimg.com/736x/e0/81/6a/e0816ab72c8d7413714d8b83315af83a.jpg')"; // Substitua pelo link desejado
-  document.body.style.backgroundSize = "cover"; // Ajusta a imagem para cobrir toda a tela
-  document.body.style.backgroundPosition = "center -800px"; // Centraliza a imagem
-  document.body.style.backgroundRepeat = "no-repeat"; // Evita repetição
 });
