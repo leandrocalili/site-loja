@@ -94,7 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
         <h3>${item.name}</h3>
         <p>${item.price}</p>
-        <button class="view-details" data-index="${index}">Ver Mais</button>
+<button class="boton-elegante" data-index="${index}">ver mais</button>
+
       `;
 
       gallery.appendChild(div);
