@@ -1,0 +1,63 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./public/css/main.css" type="text/css" />
+    <!-- <script src="./public/js/script.js" defer></script> -->
+    <script src="./public/js/teste.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <img src="https://via.placeholder.com/200" alt="Logo da Loja" class="logo" />
+      <h1 class="title">Dashboard</h1>
+    </header>
+
+    <main>
+      <!-- Sessão para adicionar produtos ao estoque -->
+      <section class="items-menager">
+        <form>
+          <div class="container">
+            <div class="form-card">
+              <h1 class="form-title">Adicionar categoria</h1>
+              <div class="form-content">
+                <div class="image-section">
+                  <div class="image-preview" id="imagePreview">
+                    <span>Pré visualização da imagem da categoria</span>
+                  </div>
+                  <input type="file" id="imageInput" hidden accept="image/*" />
+                  <button
+                    class="upload-btn"
+                    onclick="document.getElementById('imageInput').click()"
+                  >
+                    fazer upload
+                  </button>
+                </div>
+                <div class="form-fields">
+                  <input type="text" placeholder="Nome da categoria" />
+                  <div class="input-row">
+                    <input type="text" placeholder="Preço" />
+                    <input type="text" placeholder="Tamanhos" />
+                  </div>
+                  <textarea placeholder="Descrição dos produtos"></textarea>
+                  <button class="submit-btn">Criar categoria</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- Sessão para ver/editar os produtos em estoque -->
+      <section class="items-view"></section>
+    </main>
+
+    <!-- Modal para detalhes do produto -->
+    <div id="detailsModal" class="modal">
+      <div class="modal-content"></div>
+    </div>
+
+    <script src="./public/js/teste.js"></script>
+  </body>
+</html>
